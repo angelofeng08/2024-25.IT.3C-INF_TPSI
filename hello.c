@@ -71,9 +71,9 @@ int main() {
         printf("I valori inseriti sono 1 o 0\n");
 
         // Esempio di porta NOT
-        printf("Il valore di A viene trasformato da una porta NOT\n");
-        int notA = NOT(A);
-        printf("Il valore di uscita della porta NOT è: %d\n", notA);
+        
+        int R = OR((OR(NOT(A), A)), B,AND(C, D),E,F);
+        printf("Il valore di uscita della porta NOT è: %d\n", R);
 
         // Esempio di porta AND
         printf("I valori di A e B vengono trasformati da una porta AND\n");
