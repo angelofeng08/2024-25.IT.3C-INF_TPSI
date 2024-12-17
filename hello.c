@@ -70,20 +70,11 @@ int main() {
         // Procediamo con l'esecuzione solo se il numero è 1 o 0
         printf("I valori inseriti sono 1 o 0\n");
 
-        // Esempio di porta NOT
+        
         
         int R = OR((OR(NOT(A), A)), B,AND(C, D),E,F);
         printf("Il valore di uscita della porta NOT è: %d\n", R);
 
-        // Esempio di porta AND
-        printf("I valori di A e B vengono trasformati da una porta AND\n");
-        int andAB = AND(A, B);
-        printf("Il valore di uscita della porta AND è: %d\n", andAB);
-
-        // Esempio di porta OR
-        printf("I valori di A e B vengono trasformati da una porta OR\n");
-        int orAB = OR(A, B);
-        printf("Il valore di uscita della porta OR è: %d\n", orAB);
         int Bouns
     }
 
