@@ -78,9 +78,7 @@ int main(){
         int R5= OR(R1, R2);
         int FINALE= OR(R4,R5);
         
-        printf("Il valore di uscita della porta NOT è: %d\n", FINALE);
+        printf("Il valore di uscita della porta è: %d\n", FINALE);
 
-      
-
-   
-}
+ }
+      }
