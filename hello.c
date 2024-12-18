@@ -80,5 +80,7 @@ int main(){
         
         printf("Il valore di uscita della porta è: %d\n", FINALE);
 
+        int bonus = NOT(AND(A, OR(A, B)));
+        printf("Il valore di uscita della porta NOT(AND(A, OR(A, B))) bonus dell' esercizio 3 è: %d\n", bonus);
  }
       }
