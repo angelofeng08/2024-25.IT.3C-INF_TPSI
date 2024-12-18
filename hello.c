@@ -20,7 +20,7 @@ int OR(int a, int B) {
     return a + B - (a*B);
 }
 
-int main() {
+int MAIN() {
     // Dichiara una variabile
     int A, B, C, D, E, F;
 
